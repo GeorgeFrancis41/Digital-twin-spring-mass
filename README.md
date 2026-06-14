@@ -11,3 +11,7 @@ pip install -r requirements.txt
 python physical_system.py
 python digital_twin.py
 ```
+
+## Key design descisions
+- Linear Kalman filter used due to spring-mass system being linear
+- Fault injection is software controlled allowing for precise detection.
